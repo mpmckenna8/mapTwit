@@ -6,5 +6,11 @@ Also needed are the appropriate API keys from Twitter.  To Attain these visit ht
 
 # What the different files do
 
-twQuery.js
-  
+#### twQuery.js
+
+is a Node script that will query the Twitter API if you give it the proper authentification credentials in place of the XXXXX's.
+
+#### maptimes.json
+
+This is a single line json array of all of the tweet objects returned from the query.  In a start to visualizing it I just put some of em' into a table like view.
+see: [http://mpmckenna8.github.io/mapTwit/index.html](http://mpmckenna8.github.io/mapTwit/index.html) and check out the gh-pages branch if you want to improve it or look at the code.
