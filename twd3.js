@@ -3,7 +3,7 @@
 var tweTab = d3.select('body').append('div').attr('id', 'container');
 
 
-var mapCle = d3.json('mapTwit/maptimes.json', function(err,data){
+var mapCle = d3.json('maptimes.json', function(err,data){
   if(err){console.log(err)}
   else{
      console.log(data)
